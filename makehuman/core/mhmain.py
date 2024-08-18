@@ -731,7 +731,7 @@ class MHApplication(gui3d.Application, mh.Application):
         height = cam.getScale()
         aspect = cam.getAspect()
         width = height * aspect
-        factor = 2.1 if cam._projection == 0 else 16.1
+        factor = 2.1 if cam._projection == 0 else 79.1
 
         self.backgroundGradient.mesh.resize(factor*width, factor*height)
 
